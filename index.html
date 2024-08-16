@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paises</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="contenedor main">
+      <h2 class="titulo">buscador de paises</h2>
+      <div class="form" id="form">
+        <label for="buscar">Nombre del Pais</label>
+
+        <input
+          type="text"
+          id="buscar"
+          name="buscar"
+          placeholder="Nombre del pais a buscar"
+        />
+
+        <input type="submit" id="buscarBoton" class="buscar" value="Buscar" />
+      </div>
+      <div class="alerta">
+        <span id="err"></span>
+      </div>
+
+      <div id="principal"></div>
+
+      <footer class="footer">
+        <p class="parrafo">
+          La REST Countries API proporciona información detallada sobre países
+          de todo el mundo. Los desarrolladores pueden realizar solicitudes HTTP
+          para obtener datos como nombre, capital, población, área, monedas,
+          idiomas, zonas horarias, banderas y más.
+        </p>
+        <p class="copyright">Todos los derechos reservados RonalCL</p>
+      </footer>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
